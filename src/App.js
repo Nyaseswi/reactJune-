@@ -1,9 +1,9 @@
 import React from 'react';
-import ParentComponent from './hooks/useContextHook/IssueSolve';
+import Anotherway from './hooks/useEffectHook/AnotherWayUE';
 const App = () => {
     return (
         <div>
-            <ParentComponent />
+            <Anotherway />
         </div>
     )
 }
