@@ -9,6 +9,8 @@ export default function reducer(state = count, action) {
             return state + payload;
         case 'DECREMENT':
             return state - 1;
+        case 'RESET':
+            return count
         default:
             return state
     }

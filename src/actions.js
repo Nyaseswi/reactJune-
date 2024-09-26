@@ -16,3 +16,9 @@ export const decrementAction = () => async dispatch => {
     })
 }
 
+export const resetAction = () => async dispatch => {
+    dispatch({
+        type: 'RESET'
+    })
+}
+
